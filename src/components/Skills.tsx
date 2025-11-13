@@ -1,39 +1,51 @@
 import React from 'react';
-import { Code2, Database, Globe, Terminal, Cpu, Palette } from 'lucide-react';
+import { Code2, Database, Globe, Terminal, Cpu, Palette, Wrench, BookOpen } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
       icon: <Code2 className="w-6 h-6" />,
-      skills: ['Python', 'JavaScript','TypeScript', 'C++'],
+      skills: ['C++','Python','SQL', 'JavaScript','TypeScript' ],
     },
     {
       title: 'Web Technologies',
       icon: <Globe className="w-6 h-6" />,
-      skills: ['React', 'Node.js', 'TailwindCSS', 'GraphQL'],
+      skills: ['React.js', 'Node.js', 'Next.js', 'GraphQL'],
+    },
+    
+    
+    {
+      title: 'Developer Tools',
+      icon: <Wrench className="w-6 h-6" />,
+      skills: ['Git', 'GitHub', 'VS Code', 'Jupyter Notebook', 'Google Colab', 'Postman'],
+    },
+   
+    {
+      title: 'Computer Science Core',
+      icon: <BookOpen className="w-6 h-6" />,
+      skills: [
+        'Data Structures & Algorithms (DSA)',
+        'Object-Oriented Programming (OOPs)',
+        'Database Management Systems (DBMS)',
+        'Operating Systems (OS)',
+        
+      ],
+    },
+    
+
+    {
+      title: 'Libraries & Frameworks',
+      icon: <Terminal className="w-6 h-6" />,
+      skills: ['Express','NumPy','Pandas','Matplotlib','Scikit-learn','OpenCV','YoloV8','TensorFlow','Keras'],
     },
     {
       title: 'Database',
       icon: <Database className="w-6 h-6" />,
       skills: ['PostgreSQL', 'MongoDB'],
     },
-    {
-      title: 'DevOps & Tools',
-      icon: <Terminal className="w-6 h-6" />,
-      skills: ['Docker', 'AWS', 'Git', 'Linux','vercel','netlify'],
-    },
-    {
-      title: 'Operating Systems',
-      icon: <Terminal className="w-6 h-6" />,
-      skills: ['Windows','Linux','MacOS'],
-    },
-
-    {
-      title: 'Libraries & Frameworks',
-      icon: <Terminal className="w-6 h-6" />,
-      skills: ['Express','Django','Flask','Hono','NumPy','Pandas','Matplotlib'],
-    },
+   
+    
 
 
   ];

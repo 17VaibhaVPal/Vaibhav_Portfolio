@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github, Mail, Linkedin, Code2, BookOpen, Trophy, Cpu, Briefcase, Rocket } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import { Github, Mail, Linkedin } from 'lucide-react';
+import { Code2, BookOpen, Trophy, Cpu, Briefcase, Rocket } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';

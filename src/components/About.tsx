@@ -18,8 +18,8 @@ const About = () => {
               Passionate Developer
             </h3>
             <p className="text-gray-300">
-              I'm a 2nd year B.Tech student at IIT Guwahati with a deep passion for creating innovative solutions through code. 
-              My journey in technology began with competitive programming and has evolved into full-stack development(MERN stack).
+            I'm a final-year B.Tech student from MNNIT Allahabad with a strong foundation in Data Science, Machine Learning, and Full-Stack Development. I enjoy building end-to-end products—from training ML models on real-world datasets to deploying scalable backend systems and responsive frontends.
+            My work spans YOLOv8-based computer vision pipelines,  ML models, automated Python workflows, RESTful APIs, and full-stack projects using MERN stack.
             </p>
           </div>
 
@@ -29,22 +29,14 @@ const About = () => {
               Areas of Interest
             </h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Full Stack Development</li>
-              <li>Competitive Programming</li>
-              <li>Open Source Contributions</li>
-              <li>Web Development</li>
+              <li>Full Stack Web Development</li>
+              <li>Coding</li>
+              <li>AI/ML</li> 
+              <li>Data Science</li>
             </ul>
           </div>
 
-          <div className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm">
-            <h3 className="text-2xl font-semibold mb-4 flex items-center">
-              <Coffee className="w-6 h-6 mr-2 text-blue-500" />
-              When I'm Not Coding
-            </h3>
-            <p className="text-gray-300">
-              I enjoy contributing to open-source projects, solving problems on competitive coding platforms such as Codeforces, leetcode, etc.
-            </p>
-          </div>
+          
         </div>
       </div>
     </section>

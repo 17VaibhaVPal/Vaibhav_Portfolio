@@ -22,8 +22,8 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-blue-500 mr-4" />
                   <div>
                     <p className="text-gray-400">Email</p>
-                    <a href="mailto:o.dipanshu@iitg.ac.in" className="text-white hover:text-blue-500 transition-colors duration-200">
-                      o.dipanshu@iitg.ac.in
+                    <a href="mailto:Vaibhavpal17sept@gmail.com" className="text-white hover:text-blue-500 transition-colors duration-200">
+                      Vaibhavpal17sept@gmail.com
                     </a>
                   </div>
                 </div>
@@ -32,16 +32,16 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-purple-500 mr-4" />
                   <div>
                     <p className="text-gray-400">Location</p>
-                    <p className="text-white">Guwahati, Assam, India</p>
+                    <p className="text-white">Prayagraj, Uttar Pradesh, India</p>
                   </div>
                 </div>
 
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 text-blue-500 mr-4" />
                   <div>
-                    <p className="text-gray-400">Phone</p>
+                    <p className="text-gray-400">Contact Number</p>
                     <a href="tel:7620456088" className="text-white hover:text-blue-500 transition-colors duration-200">
-                      +91 7620456088
+                      +91 8303480545
                     </a>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ const Contact = () => {
             <div className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm">
               <h3 className="text-2xl font-semibold mb-4">Let's Connect</h3>
               <p className="text-gray-300">
-              Always available for innovative works if the right project comes along, Feel free to contact me!
+              Always open to meaningful collaborations and challenging projects. Feel free to reach out!
               </p>
             </div>
           </div>
