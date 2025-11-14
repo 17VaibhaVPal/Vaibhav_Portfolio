@@ -5,24 +5,24 @@ const Achievements = () => {
   const achievements = [
     {
       icon: <Star className="w-8 h-8" />,
-      title: 'Open Source Contribution',
-      description: 'Major contributor to Palisadoes Foundation',
-      date: 'Ongoing',
+      title: 'JEE-Mains 2022',
+      description: 'Achieved a top 1% nationwide rank among 1.3M+ candidates in JEE Mains 2022.',
+      date: '2022',
+    },
+    {
+      icon: <Target className="w-8 h-8" />,
+      title: 'Innodev Web Development Competition',
+      description: 'Secured Runner-Up (2nd) Position in the Innodev Web Development Competition at MNNIT.',
+      date: '2024',
     },
     {
       icon: <Target className="w-8 h-8" />,
       title: 'Competitive Programming',
-      description: 'Achieved pupil rating (1200+) on Codeforces id (_Cylinder) ',
+      description: 'Achieved 1100+ rating on Codeforces, 1300+ on CodeChef, and solved 700+ DSA problems.',
       date: 'Ongoing',
     },
-    {
-      icon: <Target className="w-8 h-8" />,
-      title: 'JEE-MAINS & JEE-ADVANCED',
-      description: 'Achieved top 1% rank in JEE Mains among 1.1 million candidates. Secured a position among the top 10,000 in JEE Advanced, competing with 250,000 candidates.',
-      date: '2023',
-    },
-
   ];
+
 
   return (
     <section id="achievements" className="py-20">

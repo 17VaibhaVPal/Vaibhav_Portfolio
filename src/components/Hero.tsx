@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="text-center">
         <img
-          src="/vaibhav.jpeg"
+          src="/vaibhav_new.jpeg"
           alt="Vaibhav Pal"
           className="w-80 h-80 rounded-full mx-auto mb-8 border-4 border-blue-500"
         />
@@ -19,7 +19,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 mb-8">
-          Web Developer | AI/ML Enthusiast | Student
+          Web Developer | AI/ML Enthusiast | Undergraduate
         </p>
         <div className="flex justify-center space-x-6">
           <a
