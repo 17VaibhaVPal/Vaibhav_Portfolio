@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
+import ScrollReveal from './components/ScrollReveal';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,13 +30,13 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <main className="container mx-auto px-4 py-8">
-        <Hero />
-        <About />
-        <Education />
-        <Skills />
-        <Projects />
-        <Achievements />
-        <Contact />
+        <ScrollReveal delay={200}><Hero /></ScrollReveal>
+        <ScrollReveal delay={150}><About /></ScrollReveal>
+        <ScrollReveal delay={150}><Education /></ScrollReveal>
+        <ScrollReveal delay={150}><Skills /></ScrollReveal>
+        <ScrollReveal delay={150}><Projects /></ScrollReveal>
+        <ScrollReveal delay={150}><Achievements /></ScrollReveal>
+        <ScrollReveal delay={150}><Contact /></ScrollReveal>
       </main>
     </div>
   );

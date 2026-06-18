@@ -9,9 +9,9 @@ const Hero = () => {
     >
       <div className="text-center">
         <img
-          src="/vaibhav_new.jpeg"
+          src="/profile.jpeg"
           alt="Vaibhav Pal"
-          className="w-80 h-80 rounded-full mx-auto mb-8 border-4 border-blue-500"
+          className="w-80 h-80 rounded-full mx-auto mb-8 border-4 border-blue-500 object-cover object-[center_25%] scale-110"
         />
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
           <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
